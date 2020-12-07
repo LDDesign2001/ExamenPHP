@@ -1,0 +1,91 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        a { text-decoration: none; color : black;}
+        img { height: 400px; }
+        h1 { text-align: center}
+        .menu-container { margin: 10px; border: 1px solid #a9a9a9; }
+        .menu-container::after { content: ''; display: block; clear: both; }
+        .content-container { margin: 50px; border: 5px solid lightgrey; }
+        .content-container::after { content: ''; display: block; clear: both; }
+        .container-left { float: left; width: 50%}
+        .container-right { float: left; width: 50%; text-align: right}
+        .menu { float: left; width: 15%; text-align: center; padding: 20px; }
+        .menu-active { background-color: lightgrey; }
+        .score { padding: 5px; }
+    </style>
+</head>
+
+<body>
+<div class="container">
+
+
+    <div class="menu-container">
+        <div class="menu ">
+            <a href="index.php?composer=0">
+                Johan Sebastian Bach                </a>
+        </div>
+        <div class="menu ">
+            <a href="index.php?composer=1">
+                Wolfgang Amadeus Mozart                </a>
+        </div>
+        <div class="menu menu-active">
+            <a href="index.php?composer=2">
+                Ludwig van Beethoven                </a>
+        </div>
+        <div class="menu ">
+            <a href="index.php?composer=3">
+                Felix Mendelssohn Bartholdy                </a>
+        </div>
+        <div class="menu ">
+            <a href="index.php?composer=4">
+                Frederic Chopin                </a>
+        </div>
+    </div>
+
+    <h1>Ludwig van Beethoven</h1>
+    <div class="content-container">
+        <div class="container-left">
+            <ul>
+                <li class="score">
+                    <a href="score.php?composer=2&score=0">
+                        Piano Sonata No.14 - Moonlight Sonata - First movement (Op.27 No.2)
+                    </a>
+                </li>
+                <li class="score">
+                    <a href="score.php?composer=2&score=1">
+                        Piano Sonata No.14 - Moonlight Sonata - Second movement (Op.27 No.2)
+                    </a>
+                </li>
+                <li class="score">
+                    <a href="score.php?composer=2&score=2">
+                        Piano Sonata No.14 - Moonlight Sonata - Third movement (Op.27 No.2)
+                    </a>
+                </li>
+                <li class="score">
+                    <a href="score.php?composer=2&score=3">
+                        Fur Elise (WoO 59)
+                    </a>
+                </li>
+                <li class="score">
+                    <a href="score.php?composer=2&score=4">
+                        Piano Sonata No.21 - Waldstein Sonata - First Movement  (Op.53)
+                    </a>
+                </li>
+                <li class="score">
+                    <a href="score.php?composer=2&score=5">
+                        Piano Sonata No.21 - Waldstein Sonata - Second Movement  (Op.53)
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="container-right">
+            <img src="images/Beethoven.jpg">
+        </div>
+    </div>
+
+</div>
+</body>
+</html>

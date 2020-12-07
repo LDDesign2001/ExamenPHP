@@ -1,0 +1,63 @@
+body {
+    background-color: #d3d3d3;
+}
+.menu {
+    background-color: #a9a9a9;
+    color: blue;
+    height: 50px;
+}
+.menu li{
+    height: 20px;
+    padding: 15px;
+}
+.menu li.left {
+    width: 80px;
+}
+.menu li.right {
+    width: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.menu li:hover{
+    background-color: lightblue;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color : blue;
+    text-align: center;
+}
+
+.paintings li {
+    border: 1px solid black;
+    width: 210px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+}
+img {
+    width: 100%;
+}
+p {
+    margin: 0;
+}
+.image {
+
+}
+.name {
+    font-size: 20px;
+}
+.painter {
+    position: absolute;
+    left: 3px;
+    bottom: 2px;
+}
+.price {
+    position: absolute;
+    right: 3px;
+    bottom: 2px;
+}

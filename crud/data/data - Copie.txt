@@ -1,0 +1,2 @@
+1;BMW;bmw.jpg;260;6
+2;Opel;opel.jpg;260;4.2

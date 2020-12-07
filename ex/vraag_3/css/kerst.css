@@ -1,0 +1,69 @@
+body {
+    background-color: limegreen;
+    margin: 0;
+}
+.menu {
+    background-color: red;
+    color: blue;
+    height: 50px;
+    margin-top: 0;
+}
+.menu li{
+    height: 20px;
+    padding: 15px;
+}
+.menu li.left {
+    width: 80px;
+}
+.menu li.right {
+    width: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: darkgreen;
+}
+.menu li:hover{
+    background-color: hotpink;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color : Darkgreen;
+    text-align: center;
+}
+
+.paintings li {
+    border: 1px solid blue;
+    background-color: lightyellow;
+    width: 210px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+}
+img {
+    width: 100%;
+}
+p {
+    margin: 0;
+}
+.image {
+
+}
+.name {
+    font-size: 20px;
+    color: darkgreen;
+}
+.painter {
+    position: absolute;
+    left: 3px;
+    bottom: 2px;
+    color: darkgreen;
+}
+.price {
+    position: absolute;
+    right: 3px;
+    bottom: 2px;
+    color: darkgreen;
+}

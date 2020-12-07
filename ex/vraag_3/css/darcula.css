@@ -1,0 +1,68 @@
+body {
+    background-color: black;
+    margin: 0;
+}
+.menu {
+    background-color: #222;
+    height: 50px;
+    margin-top: 0;
+}
+.menu li{
+    height: 20px;
+    padding: 15px;
+}
+.menu li.left {
+    width: 80px;
+}
+.menu li.right {
+    width: 20px;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #aaa;
+}
+.menu li:hover{
+    background-color: #777;
+    color: white;
+    font-weight: bold;
+}
+
+h1 {
+    color : #777;
+    text-align: center;
+}
+
+.paintings li {
+    border: 1px solid #777;
+    background-color: #222;
+    width: 210px;
+    height: 300px;
+    margin: 20px;
+    position: relative;
+}
+img {
+    width: 100%;
+}
+p {
+    margin: 0;
+}
+.image {
+
+}
+.name {
+    font-size: 20px;
+    color: #777;
+}
+.painter {
+    position: absolute;
+    left: 3px;
+    bottom: 2px;
+    color: #777;
+}
+.price {
+    position: absolute;
+    right: 3px;
+    bottom: 2px;
+    color: red;
+}
